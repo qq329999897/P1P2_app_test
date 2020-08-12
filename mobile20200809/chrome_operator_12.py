@@ -25,3 +25,12 @@ des = {
 }
 
 driver = webdriver.Remote('http://0.0.0.0:4723/wd/hub', des)
+time.sleep(10)
+print( driver.contexts )
+driver.find_element_by_xpath('//android.widget.TextView[contains(@text,"黎智英被捕案")]').click()
+time.sleep(8)
+driver.find_element_by_xpath('//android.widget.LinearLayout[@resource-id="com.wondertek.paper:id/post_comment"]').click()
+time.sleep(3)
+driver.find_element_by_xpath('//android.widget.EditText[@resource-id="com.wondertek.paper:id/edit"]').send_keys('hello')
+time.sleep(3)
+driver.find_element_by_xpath('//android.widget.TextView[@resource-id="com.wondertek.paper:id/confirm"]').click()
