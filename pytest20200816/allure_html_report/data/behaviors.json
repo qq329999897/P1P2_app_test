@@ -1,87 +1,73 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
-    "name" : "P1P2测试类",
+    "name" : "[epic]小明电商V1.0",
     "children" : [ {
-      "name" : "test_add_01",
-      "uid" : "44c67bc6b44a528d",
-      "parentUid" : "c4778e8d6f902ad706c0366e07596cd4",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1597550377152,
-        "stop" : 1597550377152,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_add_02",
-      "uid" : "923e886a0f3d5d56",
-      "parentUid" : "c4778e8d6f902ad706c0366e07596cd4",
-      "status" : "skipped",
-      "time" : {
-        "start" : 1597550377158,
-        "stop" : 1597550377158,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_sub_01",
-      "uid" : "d670c8ce7d8ff745",
-      "parentUid" : "c4778e8d6f902ad706c0366e07596cd4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597550377308,
-        "stop" : 1597550377309,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_sub_02",
-      "uid" : "e913c7eddf458506",
-      "parentUid" : "c4778e8d6f902ad706c0366e07596cd4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597550377314,
-        "stop" : 1597550377314,
-        "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
+      "name" : "[feature]商品模块",
+      "children" : [ {
+        "name" : "[case01]正常添加商品信息",
+        "uid" : "a04401404b63eb58",
+        "parentUid" : "ae5b6509ee68a896ec5aeca2dbed0e9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597566541880,
+          "stop" : 1597566541880,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_02",
+        "uid" : "56b3971dbb5ac36a",
+        "parentUid" : "ae5b6509ee68a896ec5aeca2dbed0e9f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597566541884,
+          "stop" : 1597566541884,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ae5b6509ee68a896ec5aeca2dbed0e9f"
     } ],
-    "uid" : "c4778e8d6f902ad706c0366e07596cd4"
+    "uid" : "8fd2a0fa7a11ea14e150728b7c8ca6aa"
   }, {
-    "name" : "test_add_01",
-    "uid" : "7cb4dfee94604069",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1597550377318,
-      "stop" : 1597550377319,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "test_add_02",
-    "uid" : "c2b6d118fa6fee1d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1597550377325,
-      "stop" : 1597550377326,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ ]
+    "name" : "[epic]小红电商V1.0",
+    "children" : [ {
+      "name" : "[feature]商品模块",
+      "children" : [ {
+        "name" : "[case01]正常添加商品信息",
+        "uid" : "4d074b503d3bf9a2",
+        "parentUid" : "fa3d5bad80e8fed6d168fc5737c91473",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597566541887,
+          "stop" : 1597566541887,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_add_02",
+        "uid" : "7db00bf9062a46db",
+        "parentUid" : "fa3d5bad80e8fed6d168fc5737c91473",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597566541891,
+          "stop" : 1597566541891,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa3d5bad80e8fed6d168fc5737c91473"
+    } ],
+    "uid" : "72705a2ca8a596e14b0b06401a95d8de"
   } ],
   "name" : "behaviors"
 }

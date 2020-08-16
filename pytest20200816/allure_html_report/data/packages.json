@@ -1,15 +1,15 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "children" : [ {
-    "name" : "test_demo_06",
+    "name" : "test_demo_08",
     "children" : [ {
-      "name" : "test_add_01",
-      "uid" : "44c67bc6b44a528d",
-      "parentUid" : "7cbdcdb34d5f9716df6e6d5aea6c0a9d",
-      "status" : "skipped",
+      "name" : "[case01]正常添加商品信息",
+      "uid" : "a04401404b63eb58",
+      "parentUid" : "53e505c41e9cbadcd9e54458e6f08fe8",
+      "status" : "passed",
       "time" : {
-        "start" : 1597550377152,
-        "stop" : 1597550377152,
+        "start" : 1597566541880,
+        "stop" : 1597566541880,
         "duration" : 0
       },
       "flaky" : false,
@@ -17,71 +17,45 @@
       "parameters" : [ ]
     }, {
       "name" : "test_add_02",
-      "uid" : "923e886a0f3d5d56",
-      "parentUid" : "7cbdcdb34d5f9716df6e6d5aea6c0a9d",
-      "status" : "skipped",
+      "uid" : "56b3971dbb5ac36a",
+      "parentUid" : "53e505c41e9cbadcd9e54458e6f08fe8",
+      "status" : "passed",
       "time" : {
-        "start" : 1597550377158,
-        "stop" : 1597550377158,
+        "start" : 1597566541884,
+        "stop" : 1597566541884,
         "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
-      "name" : "test_sub_01",
-      "uid" : "d670c8ce7d8ff745",
-      "parentUid" : "7cbdcdb34d5f9716df6e6d5aea6c0a9d",
+      "name" : "[case01]正常添加商品信息",
+      "uid" : "4d074b503d3bf9a2",
+      "parentUid" : "53e505c41e9cbadcd9e54458e6f08fe8",
       "status" : "passed",
       "time" : {
-        "start" : 1597550377308,
-        "stop" : 1597550377309,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_sub_02",
-      "uid" : "e913c7eddf458506",
-      "parentUid" : "7cbdcdb34d5f9716df6e6d5aea6c0a9d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597550377314,
-        "stop" : 1597550377314,
+        "start" : 1597566541887,
+        "stop" : 1597566541887,
         "duration" : 0
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "test_add_01",
-      "uid" : "7cb4dfee94604069",
-      "parentUid" : "7cbdcdb34d5f9716df6e6d5aea6c0a9d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597550377318,
-        "stop" : 1597550377319,
-        "duration" : 1
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "test_add_02",
-      "uid" : "c2b6d118fa6fee1d",
-      "parentUid" : "7cbdcdb34d5f9716df6e6d5aea6c0a9d",
+      "uid" : "7db00bf9062a46db",
+      "parentUid" : "53e505c41e9cbadcd9e54458e6f08fe8",
       "status" : "passed",
       "time" : {
-        "start" : 1597550377325,
-        "stop" : 1597550377326,
-        "duration" : 1
+        "start" : 1597566541891,
+        "stop" : 1597566541891,
+        "duration" : 0
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     } ],
-    "uid" : "7cbdcdb34d5f9716df6e6d5aea6c0a9d"
+    "uid" : "53e505c41e9cbadcd9e54458e6f08fe8"
   } ],
   "name" : "packages"
 }

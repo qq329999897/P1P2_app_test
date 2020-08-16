@@ -8,8 +8,8 @@ import os
 import pytest
 import allure
 
-
-@allure.story('P1P2测试类')
+@allure.epic('小明电商V1.0')
+@allure.feature('商品模块')
 class TestDemo05_01():
     @pytest.mark.skip(reason='开发未完善代码，阻碍测试')
     def test_add_01(self):
@@ -27,6 +27,8 @@ class TestDemo05_01():
         print('~~ exec test_sub_02 ~~')
         assert True
 
+@allure.epic('小明电商V1.0')
+@allure.feature('商品模块')
 class TestDemo05_02():
     def test_add_01(self):
         print('~~ exec TestDemo05_02 test_add_01 ~~')
@@ -39,4 +41,4 @@ if __name__=='__main__':
     report_path = os.path.dirname(__file__)+'/allure_xml_report'
     report_html_path = os.path.dirname(__file__)+'/allure_html_report'
     pytest.main(['-s','-v','--alluredir=%s'%report_path])
-    os.system('allure generate %s -o %s'%(report_path,report_html_path))
+    os.system('allure generate %s -o %s --clean'%(report_path,report_html_path))

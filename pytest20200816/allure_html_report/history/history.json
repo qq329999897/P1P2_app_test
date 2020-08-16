@@ -1,25 +1,24 @@
 {
-  "1f09e9e0131f4babd9a1bbb0f70bbb91" : {
+  "ec1cccfbb8fd498a3f1e36ce4cf82da2" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "44c67bc6b44a528d",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: 开发未完善代码，阻碍测试",
+      "uid" : "7db00bf9062a46db",
+      "status" : "passed",
       "time" : {
-        "start" : 1597550377152,
-        "stop" : 1597550377152,
+        "start" : 1597566541891,
+        "stop" : 1597566541891,
         "duration" : 0
       }
     } ]
   },
-  "98dcfc5e37a70acbacfb8e34ab8e081e" : {
+  "2ab46a6e7c7ab8b22ba6e41b8e0cbd30" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -29,55 +28,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7cb4dfee94604069",
+      "uid" : "4d074b503d3bf9a2",
       "status" : "passed",
       "time" : {
-        "start" : 1597550377318,
-        "stop" : 1597550377319,
-        "duration" : 1
-      }
-    } ]
-  },
-  "bdfb808c4b0f978cfaf4c9f5f04e91c8" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d670c8ce7d8ff745",
-      "status" : "passed",
-      "time" : {
-        "start" : 1597550377308,
-        "stop" : 1597550377309,
-        "duration" : 1
-      }
-    } ]
-  },
-  "90c360fb4ce095cb843e88a1d28baacd" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "923e886a0f3d5d56",
-      "status" : "skipped",
-      "statusDetails" : "Skipped: 条件满足，用例不执行",
-      "time" : {
-        "start" : 1597550377158,
-        "stop" : 1597550377158,
+        "start" : 1597566541887,
+        "stop" : 1597566541887,
         "duration" : 0
       }
     } ]
   },
-  "24bc7e0557e9b34f34fee6533ddfa3cb" : {
+  "9085195dbc03a2413484d0da19c9c1f1" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -87,16 +47,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c2b6d118fa6fee1d",
+      "uid" : "a04401404b63eb58",
       "status" : "passed",
       "time" : {
-        "start" : 1597550377325,
-        "stop" : 1597550377326,
-        "duration" : 1
+        "start" : 1597566541880,
+        "stop" : 1597566541880,
+        "duration" : 0
       }
     } ]
   },
-  "497406517b334125bfe96e78d3eddf29" : {
+  "a9e46b5243f4dca0647d712864f7ab82" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -106,11 +66,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e913c7eddf458506",
+      "uid" : "56b3971dbb5ac36a",
       "status" : "passed",
       "time" : {
-        "start" : 1597550377314,
-        "stop" : 1597550377314,
+        "start" : 1597566541884,
+        "stop" : 1597566541884,
         "duration" : 0
       }
     } ]

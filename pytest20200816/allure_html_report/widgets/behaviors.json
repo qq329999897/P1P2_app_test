@@ -1,15 +1,26 @@
 {
-  "total" : 3,
+  "total" : 2,
   "items" : [ {
-    "uid" : "c4778e8d6f902ad706c0366e07596cd4",
-    "name" : "P1P2测试类",
+    "uid" : "8fd2a0fa7a11ea14e150728b7c8ca6aa",
+    "name" : "[epic]小明电商V1.0",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 2,
-      "passed" : 2,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 4
+      "total" : 1
+    }
+  }, {
+    "uid" : "72705a2ca8a596e14b0b06401a95d8de",
+    "name" : "[epic]小红电商V1.0",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }
