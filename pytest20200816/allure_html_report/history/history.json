@@ -1,0 +1,118 @@
+{
+  "1f09e9e0131f4babd9a1bbb0f70bbb91" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "44c67bc6b44a528d",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 开发未完善代码，阻碍测试",
+      "time" : {
+        "start" : 1597550377152,
+        "stop" : 1597550377152,
+        "duration" : 0
+      }
+    } ]
+  },
+  "98dcfc5e37a70acbacfb8e34ab8e081e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cb4dfee94604069",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597550377318,
+        "stop" : 1597550377319,
+        "duration" : 1
+      }
+    } ]
+  },
+  "bdfb808c4b0f978cfaf4c9f5f04e91c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d670c8ce7d8ff745",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597550377308,
+        "stop" : 1597550377309,
+        "duration" : 1
+      }
+    } ]
+  },
+  "90c360fb4ce095cb843e88a1d28baacd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "923e886a0f3d5d56",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: 条件满足，用例不执行",
+      "time" : {
+        "start" : 1597550377158,
+        "stop" : 1597550377158,
+        "duration" : 0
+      }
+    } ]
+  },
+  "24bc7e0557e9b34f34fee6533ddfa3cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2b6d118fa6fee1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597550377325,
+        "stop" : 1597550377326,
+        "duration" : 1
+      }
+    } ]
+  },
+  "497406517b334125bfe96e78d3eddf29" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e913c7eddf458506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597550377314,
+        "stop" : 1597550377314,
+        "duration" : 0
+      }
+    } ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "c4778e8d6f902ad706c0366e07596cd4",
+    "name" : "P1P2测试类",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 2,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 4
+    }
+  } ]
+}

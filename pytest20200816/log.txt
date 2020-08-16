@@ -1,0 +1,8 @@
+s test_demo_06.py::TestDemo05_01::test_add_01
+ Skipped: 开发未完善代码，阻碍测试
+s test_demo_06.py::TestDemo05_01::test_add_02
+ Skipped: 条件满足，用例不执行
+. test_demo_06.py::TestDemo05_01::test_sub_01
+. test_demo_06.py::TestDemo05_01::test_sub_02
+. test_demo_06.py::TestDemo05_02::test_add_01
+. test_demo_06.py::TestDemo05_02::test_add_02

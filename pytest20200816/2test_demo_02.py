@@ -2,13 +2,13 @@
 # encoding: utf-8
 # @author: liusir
 # @file: 1test_demo_01.py
-# @time: 2020/8/12 8:56 下午
+# @time: 2020/8/16 8:50 上午
 
 import pytest
 
-class TestDemo01:
-    def testadd(self):
-        assert 10+10 == 20
+def test_sub():
+    print('~~ exec test_sub ~~')
+    assert True
 
 if __name__=='__main__':
-    pytest.main()
+    pytest.main(['-s'])
